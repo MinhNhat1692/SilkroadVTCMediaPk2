@@ -1,0 +1,63 @@
+Interface Text
+
+
+Section = Create,"0,0,0,0","0"
+{
+	GDR_SPIN_BTN_NEXT:CIFButton
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,29,115,130"
+		DDJ=STRING,"interface\\ifcommon\\com_right_bigarrow.ddj"
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"1"
+		ID=INTEGER,"2"
+		Rect=RECT,"154,1,24,24"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+	GDR_SPIN_BTN_PREV:CIFButton
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,68,49,225"
+		DDJ=STRING,"interface\\ifcommon\\com_left_bigarrow.ddj"
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"1"
+		ID=INTEGER,"1"
+		Rect=RECT,"1,1,24,24"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+	GDR_SPIN_TEXT_DEPTH:CIFStatic
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,215,229,233"
+		DDJ=STRING,""
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"1"
+		ID=INTEGER,"0"
+		Rect=RECT,"16,2,73,12"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"1"
+	}
+}

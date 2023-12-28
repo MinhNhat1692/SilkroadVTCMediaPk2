@@ -1,0 +1,44 @@
+Interface Text
+
+
+Section = Create,"0,0,0,0","0"
+{
+	GDR_GUILDMASTER_LEAVE_SLOT_NAME:CIFStatic
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,255,255,255"
+		DDJ=STRING,""
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"1"
+		ID=INTEGER,"11"
+		Rect=RECT,"55,8,135,14"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+	GDR_GUILDMASTER_LEAVE_SLOT_CB_SELECT:CIFCheckBox
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,255,255,255"
+		DDJ=STRING,"interface\\ifcommon\\com_checkbutton02_off.ddj"
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"10"
+		Rect=RECT,"15,7,12,12"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+}

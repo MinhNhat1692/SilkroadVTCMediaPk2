@@ -1,0 +1,63 @@
+Interface Text
+
+
+Section = Create,"0,0,0,0","0"
+{
+	GDR_GUILD_RELATIONS_HOSTILE:CIFHostileGuild
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,255,255,255"
+		DDJ=STRING,""
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"10"
+		Rect=RECT,"6,29,440,285"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+	GDR_GUILD_RELATIONS_ALLIANCE:CIFAllianceGuild
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,255,255,255"
+		DDJ=STRING,""
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"9"
+		Rect=RECT,"6,29,440,285"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+	GDR_GUILD_RELATIONS_BG:CIFNormalTile
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,255,255,255"
+		DDJ=STRING,"interface\\ifcommon\\bg_tile\\com_bg_tile_d.ddj"
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"1"
+		Rect=RECT,"12,12,427,22"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+}

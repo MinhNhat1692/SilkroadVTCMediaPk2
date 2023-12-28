@@ -1,0 +1,129 @@
+Interface Text
+
+
+Section = Create,"0,0,0,0","0"
+{
+	GDR_ITEMMALL_CONFIRM_STA_2:CIFStatic
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,255,255,255"
+		DDJ=STRING,""
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"1"
+		ID=INTEGER,"5"
+		Rect=RECT,"301,2,21,20"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+	GDR_ITEMMALL_CONFIRM_STA_1:CIFStatic
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,255,255,255"
+		DDJ=STRING,""
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"2"
+		ID=INTEGER,"4"
+		Rect=RECT,"57,2,116,20"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+	GDR_ITEMMALL_CONFIRM_EDIT:CIFEdit
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,255,255,255"
+		DDJ=STRING,""
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"2"
+		ID=INTEGER,"3"
+		Rect=RECT,"182,2,116,20"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+	GDR_ITEMMALL_CONFIRM_BUY_BLACKSQUARE:CIFStatic
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,255,255,255"
+		DDJ=STRING,"interface\\mall\\mall_box_02.ddj"
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"2"
+		Rect=RECT,"182,1,116,20"
+		StretchType=INTEGER,"0"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+}
+
+Section = PointButton,"0,0,0,0","0"
+{
+	GDR_ITEMMALL_CONFIRM_BTN_CONFIRM_POINT:CIFButton
+	{
+		ClientRect=RECT,"0,6,0,0"
+		Color=COLOR,"255,63,176,224"
+		DDJ=STRING,"interface\\mall\\mall_point_button.ddj"
+		FontColor=COLOR,"255,255,245,218"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"1"
+		ID=INTEGER,"10"
+		Rect=RECT,"162,3,20,20"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+}
+
+Section = ConfirmPoint,"0,0,0,0","0"
+{
+	GDR_ITEMMALL_CONFIRM_POINT_WND:CItemMallUsePoint
+	{
+		ClientRect=RECT,"0,6,0,0"
+		Color=COLOR,"255,63,176,224"
+		DDJ=STRING,"interface\\frame\\mall_ms_wnd_"
+		FontColor=COLOR,"255,255,245,218"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"1"
+		ID=INTEGER,"400"
+		Rect=RECT,"0,0,244,177"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+}

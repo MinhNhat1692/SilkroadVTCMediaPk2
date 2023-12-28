@@ -1,0 +1,90 @@
+Interface Text
+
+
+Section = Create,"0,0,0,0","0"
+{
+	GDR_ITEM_MALL_TRUNK_FRAME:CIFFrame
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,255,255,255"
+		DDJ=STRING,"interface\\frame\\frameg01_wnd_"
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"2"
+		Rect=RECT,"0,311,256,27"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+	GDR_ITEM_MALL_TRUNK_BG:CIFStatic
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,255,255,255"
+		DDJ=STRING,"interface\\ifcommon\\bg_tile\\com_bg_tile_b.ddj"
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"1"
+		Rect=RECT,"16,16,224,303"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+}
+
+Section = Inventory,"0,0,0,0","0"
+{
+	GDR_ITEM_MALL_INVENTORY:CIFItemMallInventory
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,255,255,255"
+		DDJ=STRING,""
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"51"
+		Rect=RECT,"0,0,256,333"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+}
+
+Section = StorageRoom,"0,0,0,0","0"
+{
+	GDR_ITEM_MALL_STORAGEROOM:CIFItemMallStorageRoom
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,255,255,255"
+		DDJ=STRING,""
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"52"
+		Rect=RECT,"0,0,256,365"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+}

@@ -1,0 +1,84 @@
+Interface Text
+
+
+Section = Create,"0,0,0,0","0"
+{
+	GDR_GAME_OPTION_TAB_2:CIFStatic
+	{
+		ClientRect=RECT,"28,12,0,0"
+		Color=COLOR,"255,255,255,255"
+		DDJ=STRING,"interface\\option\\opt_video_quality_tab.ddj"
+		FontColor=COLOR,"255,239,218,164"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"12"
+		Rect=RECT,"13,162,0,0"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,"UIIT_STT_GAMESET"
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+	GDR_GAME_OPTION_TAB_1:CIFStatic
+	{
+		ClientRect=RECT,"28,12,0,0"
+		Color=COLOR,"255,255,255,255"
+		DDJ=STRING,"interface\\option\\opt_video_quality_tab.ddj"
+		FontColor=COLOR,"255,239,218,164"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"11"
+		Rect=RECT,"13,19,0,0"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,"UIIT_STT_NAMEVIEW"
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+	GDR_GAME_OPTION_SCROLLMANAGER_2:CIFScrollManager
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,255,255,255"
+		DDJ=STRING,"interface\\inventory\\int_window_"
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"2"
+		Rect=RECT,"14,189,336,101"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+	GDR_GAME_OPTION_SCROLLMANAGER_1:CIFScrollManager
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,255,255,255"
+		DDJ=STRING,"interface\\inventory\\int_window_"
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"1"
+		Rect=RECT,"14,46,336,101"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+}
+
+

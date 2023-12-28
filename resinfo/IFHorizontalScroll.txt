@@ -1,0 +1,63 @@
+Interface Text
+
+
+Section = Create,"0,0,0,0","0"
+{
+	GDR_IFHS_BTN_SCROLLTHUMB:CIFButton
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,67,41,40"
+		DDJ=STRING,""
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"2"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"2"
+		Rect=RECT,"0,4,24,24"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+	GDR_IFHS_BTN_SCROLLRIGHT:CIFButton
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,155,200,129"
+		DDJ=STRING,""
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"2"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"1"
+		Rect=RECT,"184,0,32,32"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+	GDR_IFHS_BTN_SCROLLLEFT:CIFButton
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,239,16,80"
+		DDJ=STRING,""
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"2"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"0"
+		Rect=RECT,"-29,0,32,32"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+}

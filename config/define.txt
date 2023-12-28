@@ -1,0 +1,58 @@
+// Define String
+
+EU_REGION_INFO_VIEW			// 지역설명
+RENEWAL_SHOP_SYSTEM			// Renewal Shop
+EUROPE_SYSTEM				// 유럽 시스템
+RESTORE_SOLDITEM_INSHOP			// 되사기
+ITEM_MALL_ADD_TABS			// 아이템몰 연금술,프리미엄탭 추가
+APPLY_MENTOR_SYSTEM			// 후견인시스템
+//HISTORY_FOR_BUYING_SILK			// 구매내역
+APPLY_AVATAR_SYSTEM			// 아바타 시스템
+APPLY_SIEGE_FORTRESS_SYSTEM		// 요새전 시스템
+CHATTING_BLOCKING_SYSTEM		// 채팅 차단
+WHISPER_BLOCKING_SYSTEM			// 귓속말 차단
+APPLY_UI_4TH				// UI 4차
+//EVENT_FESTIVAL				// summer 철자 이벤트 (여름이벤트)
+AVATAR_SPECIAL_ITEM			// 나스룬
+//IMAGE_BASED_USER_VALIDATION		// 이미지인증
+APPLY_EXCHANGE_UPDATE_1TH		// 교환창 사기방지
+UI_UPDATE_2009_FIRST			// UI개선 1차
+GACHA_SECOND_VER			// 가차 2.0
+SIEGE_FORTRESS_SYSTEM_IMPROVEMENT_1	// 요새전 개선
+ADD_HELPWND_EXTEND			// 툴팁 확장
+NEW_ITEMMALL				// 아이템몰 개선
+RENEWAL_NEWBIE_SUPPORT			// 초보자 지원 개선
+TRIJOB_SYSTEM_IMPROVEMENT		// 무역삼각대립 개선
+//GLOBAL_SERVICE_PING_INFORMATION_SUPPORT	// 글로벌 서버 리스트 개선
+//SILKROAD_INTERFACE_ALCHEMYBOX_INC4TAB	// 연금술 개선(4tab로 늘리고 슬롯 분해)
+L_10_COMMUNITY_IMPROVEMENT		// 커뮤니티 개선
+TRADE_CONFLICT_SYSTEM			// 무역과 직업대립
+ADD_TRADE_EQUIP_INVENTORY		// 직업 장비
+DEV_ADD_PARTY_INVITE_BLOCK_LIST		// 파티매칭 거부
+EXTEND_QUICK_SLOT			// 퀵슬롯 확장
+DROP_ERROR_MESSAGE_BOX			// 드랍 에러 메시지 박스
+APPLY_MAKE_ITEM_BY_USE_RECIPE		// 제작시스템 - 레시피 제작 배우기 메시지 박스
+APPLY_ITEM_UPGRADE_N_HIGHCLASS_REINFORCE	// 12차 아이템 성장 강화
+FIX_FOR_PET_PICKUP_METHOD		// 펫 줍기 기능 개선
+GUI_IMPROVEMENT_4ST			// UI 개선 4차
+GUI_IMPROVEMENT_4ST_FIXED_CHARINFO	// UI 개선 4차(캐릭터 선택창 정보)
+IMPROVE_TRADE_CONFLICT_SYSTEM_PART2	// 무역과 직업대립 2차 단기개선
+//APPLY_MOTP_SYSTEM			// MOTP 적용
+//ADULT_EXPLAIN				// 성인인증 메세지
+//CGI_CERTIFIER_USER			// 야후 이관 UI-약관등
+FLEAMARKET_NETWORK_SYSTEM_COMMUNITY_EXPANSION	// 노점 네트워크 판매자와 귓속말 기능
+//EVENT_MINIGAME_090121			// 설이벤트(윳놀이)
+//ADULT_EXPLAIN_SECOND			// 시스템메뉴 NIF로 변경(국내만 쓰인다 - 심의등급 표시 적용으로 인하여 시스템 메뉴가 NIF로 다시 만들어 졌다.(이용등급추가))
+EVENT_CARD_SIZE_CHANGE			// 이벤트 카드 사이즈 변경
+APPLY_ITEM_REINFORCE_ADD_MESSAGE	// 연금 강화 성공 메시지 ( +8 이상 성공시 중앙에 메시지 출력 )
+RECHARGE_SYSTEM			// 회귀버프
+LEVEL_DESIGN_IMPROVEMENT_3		// 레벨디자인 개선 3차
+UI_UPDATE_2009_SECOND			// UI 2차 개선
+UNION_PARTY_SYSTEM			// 연합 파티 시스템
+FATIGUE_SYSTEM				// 피로도 시스템
+NETOFF_MSGBOX_UPDATE			// Disconnect 메시지 표시 수정
+IMPROVEMENT_GUILD_GP_FOR_U1_HELLOPLAY	// GP개선
+//CHANNELING_LOGIN_SERVICE		// SROR 채널링
+USER_WAITING_SYSTEM			// 로그인 대기표 시스템
+USER_WAITING_SYSTEM_INSTANT_ACCESS	// 즉시 입장
+//ITEMMALL_KOREA_DONG			// 아이템몰 UI(국내에만 적용 - 실크 표시와 개수 표시)

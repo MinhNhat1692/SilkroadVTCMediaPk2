@@ -1,0 +1,63 @@
+Interface Text
+
+
+Section = Create,"0,0,0,0","0"
+{
+	GDR_ALCHEMYBOX_REINFORCE_EQUIPMENT:CIFAlchemyReinforce
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,105,197,58"
+		DDJ=STRING,"interface\\alchemy\\alcm_window_quick mastery.ddj"
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"1"
+		ID=INTEGER,"22"
+		Rect=RECT,"0,150,376,228"
+		Style=INTEGER,"64"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"1"
+	}
+	GDR_ALCHEMYBOX_ELEMENT_MANUFACTURING:CIFAlchemyProcess
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,105,197,58"
+		DDJ=STRING,"interface\\alchemy\\alcm_window_experiment.ddj"
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"1"
+		ID=INTEGER,"21"
+		Rect=RECT,"0,150,376,228"
+		Style=INTEGER,"64"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"1"
+	}
+	GDR_ALCHEMYBOX_PML_TEXT:CIFPML
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,108,205,164"
+		DDJ=STRING,""
+		FontColor=COLOR,"255,0,0,0"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"11"
+		Rect=RECT,"39,89,300,48"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+}

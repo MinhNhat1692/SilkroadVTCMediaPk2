@@ -1,0 +1,82 @@
+Interface Text
+
+
+Section = Create,"0,0,0,0","0"
+{
+	GDR_OPTION_QUIT_BTN_CANCEL:CIFButton
+	{
+		ClientRect=RECT,"4,11,4,8"
+		Color=COLOR,"255,194,121,159"
+		DDJ=STRING,"interface\\option\\option_bigbtn.ddj"
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"2"
+		HAlign=INTEGER,"1"
+		ID=INTEGER,"12"
+		Rect=RECT,"79,168,284,36"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,"메뉴창으로 돌아갑니다"
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"1"
+	}
+	GDR_OPTION_QUIT_BTN_CHARSEL:CIFButton
+	{
+		ClientRect=RECT,"4,11,4,8"
+		Color=COLOR,"255,182,10,151"
+		DDJ=STRING,"interface\\option\\option_bigbtn.ddj"
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"2"
+		HAlign=INTEGER,"1"
+		ID=INTEGER,"11"
+		Rect=RECT,"79,124,284,36"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,"캐릭터 선택창으로 갑니다"
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"1"
+	}
+	GDR_OPTION_QUIT_BTN_WND:CIFButton
+	{
+		ClientRect=RECT,"4,11,4,8"
+		Color=COLOR,"255,2,44,78"
+		DDJ=STRING,"interface\\option\\option_bigbtn.ddj"
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"2"
+		HAlign=INTEGER,"1"
+		ID=INTEGER,"10"
+		Rect=RECT,"79,80,284,36"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,"윈도우로 나갑니다"
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"1"
+	}
+	GDR_OPTION_GAME_TITLE:CIFStatic
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,225,84,249"
+		DDJ=STRING,""
+		FontColor=COLOR,"255,255,255,255"
+		FontIndex=INTEGER,"2"
+		HAlign=INTEGER,"1"
+		ID=INTEGER,"0"
+		Rect=RECT,"8,40,432,21"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,"실크로드 온라인을 종료하시겠습니까?"
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+}

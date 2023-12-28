@@ -1,0 +1,63 @@
+Interface Text
+
+
+Section = Create,"0,0,0,0","0"
+{
+	GDR_GUIDE_MENU_SCROLLMGR:CIFScrollManager
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,143,110,60"
+		DDJ=STRING,"interface\\equipment\\equip_window_"
+		FontColor=COLOR,"255,44,15,1"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"13"
+		Rect=RECT,"10,34,192,346"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+	GDR_GUIDE_MENU_TILE_2:CIFNormalTile
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,143,110,60"
+		DDJ=STRING,"interface\\ifcommon\\bg_tile\\com_bg_tile_d.ddj"
+		FontColor=COLOR,"255,44,15,1"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"12"
+		Rect=RECT,"22,46,168,322"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+	GDR_GUIDE_MENU_TILE_1:CIFNormalTile
+	{
+		ClientRect=RECT,"0,0,0,0"
+		Color=COLOR,"255,143,110,60"
+		DDJ=STRING,"interface\\ifcommon\\bg_tile\\com_bg_tile_b.ddj"
+		FontColor=COLOR,"255,44,15,1"
+		FontIndex=INTEGER,"0"
+		HAlign=INTEGER,"0"
+		ID=INTEGER,"11"
+		Rect=RECT,"69,16,128,128"
+		Style=INTEGER,"0"
+		SubSection=STRING,""
+		Text=STRING,""
+		UV_LB=POINT,"0,1"
+		UV_LT=POINT,"0,0"
+		UV_RB=POINT,"1,1"
+		UV_RT=POINT,"1,0"
+		VAlign=INTEGER,"0"
+	}
+}

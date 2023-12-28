@@ -1,0 +1,7 @@
+//////LINK URL PATH
+//////////º£Æ®³²
+{ 1, "https://sro.vtcgame.vn" },						//homepage
+{ 2, "https://sro.vtcgame.vn" },					//movie
+{ 3, "https://sro.vtcgame.vn" },					//guide
+{ 4, "https://sro.vtcgame.vn" },				//download direct x
+{ 5, "https://sro.vtcgame.vn" },					//download full game
