@@ -1,6 +1,0 @@
-Interface Text
-
-
-Section = Create,"0,0,0,0","0"
-{
-}

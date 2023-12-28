@@ -1,7 +1,0 @@
-StartProcess = "CPSVersionCheck"
-//Map = "0"
-StartCharacter = "1907"
-StartWeapon = "0"
-
-IntroName = "script\intro\china_wharf.txt"
-IntroBGM = "maintheme_cut.ogg"
